@@ -8,12 +8,12 @@ package com.handl.behaviouraltype.fangwenzhe;
  */
 public class BossVisitor implements Visitor {
     @Override
-    public void zhiChu(ZhiChuBill zhiChuBill) {
+    public void jieGuo(ZhiChuBill zhiChuBill) {
         System.out.println("老板: 这个月支出了"+zhiChuBill.getZhiChu());
     }
 
     @Override
-    public void shouRu(ShouRuBill shouRuBill) {
+    public void jieGuo(ShouRuBill shouRuBill) {
         System.out.println("老板: 这个月收入了"+shouRuBill.getShouRu());
     }
 }

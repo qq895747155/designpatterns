@@ -37,5 +37,8 @@ public class Test {
         EnumType enumType1 = EnumType.INSRTANSE;
         EnumType enumType2 = EnumType.INSRTANSE;
         System.out.println("枚举比较===" + (enumType1 == enumType2 ? true : false));
+
+        System.out.println(EnumType.OBJECT.isFlag());
+        System.out.println(EnumType.INSRTANSE.isFlag());
     }
 }

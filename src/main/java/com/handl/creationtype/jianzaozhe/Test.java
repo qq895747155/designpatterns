@@ -13,7 +13,7 @@ package com.handl.creationtype.jianzaozhe;
  *   2.组件类 LunTai   YinQing
  *   3.构造者抽象接口CarBuilder(定义产品构建骨架)
  *          定义产品的组装方法和组装完成后的结果返回方法
- *   4.构造者实现类CarBuilderA ，CarBuilderB，。。。。；真正的构造产品的实现
+ *   4.构造者实现类CarBuilderA ，CarBuilderB
  *   5.管理者CarDirector,用来管理构造者的构建过程，避免客户端直接使用构造者
  *      持有构造者的引用，在使用时通过构造方法传入真实的构造者
  *      构造完成后，调用构造者的结果返回方法获取构造对象并返回到客户端。
@@ -28,7 +28,7 @@ public class Test {
         //创建管理者
         CarDirector carDirector = new CarDirector();
 
-        //创建构造者
+        //创建构造者,可以把构造者转移到管理类中
         CarBuilder carBuilderA = new CarBuilderA();
         CarBuilder carBuilderB = new CarBuilderB();
 

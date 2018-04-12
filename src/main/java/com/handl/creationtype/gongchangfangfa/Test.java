@@ -20,8 +20,8 @@ public class Test {
 
     public static void main(String[] args) {
         //创建工厂实例(可以改变工厂创建实例类型)
-//        OperationFactory factory = new SumOperationFactory();
-        OperationFactory factory = new SubOperationFactory();
+        OperationFactory factory = new SumOperationFactory();
+//        OperationFactory factory = new SubOperationFactory();
         //通过工厂实例创建运算类实例
         Operation operation = factory.createOperation();
 

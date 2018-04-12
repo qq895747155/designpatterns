@@ -28,7 +28,7 @@ public class Test {
         contreteAggregate.add("e");
 
         //创建迭代器对象，传入聚合对象
-        Itreator itreator = new ContreteIterator(contreteAggregate);
+        Itreator itreator = contreteAggregate.iterator();
 
         //使用迭代器操作聚合对象
         while (itreator.hasNext()){

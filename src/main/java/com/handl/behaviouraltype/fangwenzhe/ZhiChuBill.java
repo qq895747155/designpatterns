@@ -14,7 +14,7 @@ public class ZhiChuBill implements Bill {
 
     @Override
     public void accept(Visitor visitor) {
-        visitor.zhiChu(this);
+        visitor.jieGuo(this);
     }
 
     public ZhiChuBill(int zhiChu) {

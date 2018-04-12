@@ -12,7 +12,7 @@ public class ShouRuBill implements Bill {
 
     @Override
     public void accept(Visitor visitor) {
-        visitor.shouRu(this);
+        visitor.jieGuo(this);
     }
 
     public ShouRuBill(int shouRu) {

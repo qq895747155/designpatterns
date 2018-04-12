@@ -10,7 +10,7 @@ package com.handl.behaviouraltype.fangwenzhe;
 public interface Visitor {
 
     //访问支出
-    void zhiChu(ZhiChuBill zhiChuBill);
+    void jieGuo(ZhiChuBill zhiChuBill);
     //访问收入
-    void shouRu(ShouRuBill shouRuBill);
+    void jieGuo(ShouRuBill shouRuBill);
 }

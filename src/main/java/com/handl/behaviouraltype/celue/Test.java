@@ -4,7 +4,7 @@ package com.handl.behaviouraltype.celue;
  *Created by handl on 2017/9/22.
  *
  * 策略模式：模拟打折的不同优惠算法
- *      策略定义了算法家族，分别封装起来，算法之间可以互相替换，策略模式中算法的变法不影响使用的客户端
+ *      策略定义了算法家族，分别封装起来，算法之间可以互相替换，策略模式中算法的变化不影响使用的客户端
  *
  * 1.算法接口或者是抽象类(Strategy)
  *
@@ -21,7 +21,7 @@ package com.handl.behaviouraltype.celue;
  *          构造方法中直接传入一个具体的策略对象
  *
  *      2.可以使用算法上下文类(StrategyContext)当作工厂类，
- *          在算法上下文类(StrategyContext)的构造方法中创建具体策略对象，
+ *          在算法上下文类(StrategyContext)的构造方法中创建具体策略对象标识，
  *
  *      3.使用算法上下文类(StrategyContext)当作工厂类，
  *          在算法上下文类(StrategyContext)的构造方法中通过策略工厂类创建策略类
