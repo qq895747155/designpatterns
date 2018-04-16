@@ -28,6 +28,5 @@ public abstract class Decorate implements Component {
         //调用原有实现类的方法
         component.sayHello();
         //在装饰子类中扩展新功能
-
     }
 }

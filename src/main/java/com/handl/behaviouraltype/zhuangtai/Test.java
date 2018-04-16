@@ -56,7 +56,7 @@ public class Test {
         stateContextA.stateHandl();
 
 
-        //第二步，用户开始授权人脸识别认证，状态值是0
+        //第二步，用户开始授权人脸识别认证，状态值是1
         //创建工作类StateContent(从数据库获取对象)
         StateContext stateContextB = new StateContext();
         //通过查询数据库，得到状态值，通过工厂模式创建对应的状态对象，并传入工作类
